@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin: 10px 10px 10px 0;
+}
+
+label {
+}
